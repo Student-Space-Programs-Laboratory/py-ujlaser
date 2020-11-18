@@ -1,9 +1,9 @@
 # Arduino Emulation
-Within this repository is also a Arduino .ino code file that provides a near approximation of the behaviour of a MicroJewel laser.
+Within this repository is also a [Arduino .ino code](https://github.com/Student-Space-Programs-Laboratory/py-ujlaser/blob/master/arduino-spoof/ujlaser_emulator/ujlaser_emulator.ino) file that provides a near approximation of the behaviour of a MicroJewel laser.
 
 This is by no means a perfect emulation, and certainly has flaws, but this is still a useful tool to have when waiting to test software. Live firing a laser can be a difficult and rare opportunity, so any chance to further test code without the restrictions of physical access to the laser is a help. 
 
-This `.ino` file was created without any knowledge of the source code/firmware of MicroJewel laser and was created using trial-and-error through the python test benches. The process we used to create this `.ino` file was:
+`ujlaser_emulator.ino` was created without ANY knowledge of the source code/firmware of MicroJewel laser and was created using trial-and-error through the python test benches. The process we used to create the `ujlaser_emulator.ino` file was:
 1. Create new test case on test bench
 2. Adjust test bench until the MicroJewel laser passes the test bench
 3. Adjust the `.ino` file until the Arduino UNO also passes the test bench
