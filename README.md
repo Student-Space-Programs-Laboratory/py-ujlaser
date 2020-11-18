@@ -1,4 +1,4 @@
-# OASIS Laser
+# ujLaser
 This library provides programmatic control of a QuantumComposers MicroJewel laser using the USB serial interface.	
 # Requirements
 This code has been tested on Python 3.5.
