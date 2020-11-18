@@ -14,3 +14,11 @@ Not all commands are implemented in the emulation file. Saving and loading user 
 The code was written for an Arduino UNO, using the below schematic. A toggle switch is used to represent the external interlock connection, and the red LED indicates when the laser is "active"/firing.
 
 The serial commands and responses to the Arduino UNO are almost identical to that of an actual MicroJewel laser. Including the error codes and number of digits after the decimal point for query commands.
+
+The capacitor (C1) is used to prevent the Arduino UNO from resetting when the serial port is connected. Leave this on when running your code, but you must disconnect this capacitor whenever programming your Arduino UNO!
+
+Example setup on a Breadboard:
+![image](https://raw.githubusercontent.com/Student-Space-Programs-Laboratory/py-ujlaser/master/arduino-spoof/breadboard_example.png)
+
+Example setup schematic:
+![image](https://github.com/Student-Space-Programs-Laboratory/py-ujlaser/blob/master/arduino-spoof/schematic_example.png)
