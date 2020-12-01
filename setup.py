@@ -7,7 +7,7 @@ setup(
     url='https://github.com/Student-Space-Programs-Laboratory/py-ujlaser',
     author='Miles Green, Noah Chaffin, Tyler Sengia',
     author_email='tylersengia@gmail.com',
-    license='The Unlicense',
+    license='CC0',
     packages=['ujlaser'],
     install_requires=['pyserial>=3.0'],
     classifiers=['Programming Language :: Python :: 3',
