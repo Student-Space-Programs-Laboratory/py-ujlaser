@@ -24,4 +24,4 @@ Look in the `arduino-spoof` directory and [Arduino_Emulation.md](https://github.
 - Tyler Sengia
 
 # Disclaimer
-The library is not built, endorsed, tested, verified, insured, etc. by Quantum Composers. This library was built by users of the Quantum Composers MicroJewel laser products. We (the authors and contriubutors of this code) are NOT liable for ANY and ALL damages, injuries, costs, etc. created from using this code. Please read the LICENSE.txt for the full legal agreement you undertake when using this software.
+The library is not built, endorsed, tested, verified, insured, etc. by Quantum Composers. This library was built by users of the Quantum Composers MicroJewel laser products. We (the authors and contriubutors of this code) are NOT liable for ANY and ALL damages, injuries, costs, etc. created from using this code. Please read the COPYING.txt for the full legal agreement you undertake when using this software.
